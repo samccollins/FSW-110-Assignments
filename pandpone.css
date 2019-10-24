@@ -1,0 +1,41 @@
+#boxes-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#boxes-container > div {
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color: green;
+}
+
+#red {
+    background-color: red;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#counter-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#counter {
+    margin: auto 20px;
+    font-size: 35px;
+}
