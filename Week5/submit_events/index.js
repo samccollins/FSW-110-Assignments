@@ -4,5 +4,6 @@ const ageBox = document.getElementById('age');
 const submitButton = document.getElementById('submit');
 
 function buttonClick(){
-    alert(fNameBox + '' + lNameBox + '' + ageBox);
+    alert(fname.value + lname.value + age.value);
 };
+submitButton.addEventListener('click', buttonClick).innerHTML = '';
