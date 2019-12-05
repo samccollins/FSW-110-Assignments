@@ -1,0 +1,52 @@
+body {
+    background: gray;
+}
+
+#heading{
+    text-align: center;
+}
+
+#info {
+    background-color: gray;
+    text-align: center;
+}
+
+.boxStyles {
+    border: 2px solid black;
+}
+
+#output {
+    text-align: center;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    #info {
+      width: 50%;
+      text-align: center;
+      padding: 0;
+    }
+    #heading {
+        text-align: left;
+    }
+    #output {
+        text-align: left;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    #info {
+      width: 20%;
+      text-align: center;
+    }
+    #heading {
+        text-align: left;
+    }
+    #myButton {
+        text-align: left;
+    }
+    #output {
+        text-align: left;
+    }
+  }
